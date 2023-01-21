@@ -1,0 +1,79 @@
+스마트컨트랙트 개발 입문
+	섹션 0. 오리엔테이션
+		강의 소개
+			누구나 실습을 통해 빠르게 스마트컨트랙트 개발 하기
+		학습 자료
+		
+	섹션 1. 환경 설정
+		섹션 소개
+		환경설정
+			VSCode, NodeJS 설치
+		환경설정 확인
+	
+	섹션 2. Smart contract 시작
+		섹션 소개
+		npm packages 설치
+		hardhat.config.ts
+		vscode extentsions
+			prettier 설정, solidity 설정, eslint 설정
+		
+		확인하기
+			hardhat, prettier, solidity
+	
+	섹션 3. Smart contract 만들기
+		섹션 소개
+		
+		Solidity 소개
+		sol파일 기본 구조
+		
+		변수
+			bool, string, uint256, memory array, storage array, mapping
+		함수
+			public view (Call)
+		함수
+			public (Transaction)
+		
+		event
+		Compile
+		artifacts 살펴보기
+		
+	섹션 4. Smart contract Unittest 만들기
+		섹션 소개
+		Unittest 소개
+		Unittest 기본 구조
+		
+		컨트랙트 배포
+		테스트 코드 만들기
+		Unittest with event
+		Debugging - require, console.log()
+		
+	섹션 5. Smart contract 배포하기
+		섹션 소개
+		
+		klaytn network 소개
+		EOA 생성
+		.env
+		hardhat.config.ts
+			optimizer 설정, add network
+		gasPrice, gasLimit, usedGas 설명
+		estimateGas()
+		Deploy
+		Interaction with Smart Contract
+		
+	섹션 6. Klaytn Scope
+		섹션 소개
+		
+		블럭체인 소개
+		Block 살펴보기
+		Transaction 살펴보기
+		내 EOA 살펴보기
+		내 Contract 살펴보기
+		내 Transaction 살펴보기
+		
+	섹션 7. 끝
+		강의 Review
+		다음 강의 소개
+            블럭체인 코어팀에게 필요한 개론
+			Smart 컨트랙트 개발
+			블럭체인 백엔드
+			블럭체인 프론트엔드
