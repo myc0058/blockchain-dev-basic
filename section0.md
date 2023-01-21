@@ -55,18 +55,22 @@
 
 - Klaytn에서 진행하는 이유는 가장 쉽고 문제없이 진행할 수 있기기 때문입니다.
 
-- 위 환경에서 여러분들은 Contract를 개발하고 배포하고 사용하는 과정을 실습을 통해 습득하시게 되고 강의가 끝나면 간단한 블록체인 프로젝트의 개발 시작과 끝을 경험해 보실수 있습니다.
+- 위 환경에서 여러분들은 Contract를 개발하고 [Unittest](#unittest)로 검증하고 HardHat으로 배포하고 사용하는 과정을 실습을 통해 습득하시게 되고 강의가 끝나면 간단한 블록체인 프로젝트의 개발 시작과 끝을 경험해 보실수 있습니다.
 
 # **용어집**
 
 <div id="contract"></div>
+
 - Smart Contract : 블록체인에 내가 원하는 코드를 배포하고 실행할수 있습니다. 이 코드를 Smart Contract라고 부릅니다. 이 강의 에서는 언어는 Solidity 버전은 0.8.6을 사용합니다.
 
 <div id="offchain"></div>
+
 - Off-Chain : 블록체인 밖을 Off-Chain이라고 합니다. 반대말은 On-Chain입니다. 업무할 때 내가 지금 말하고 있는 동작이 On-Chain에서 벌어지는 일인지 Off-Chain에서 벌어지는 일인지 명확하게 지정하는 게 좋습니다.
 
 <div id="network"></div>
+
 - 네트웍 : Ethereum, Polygon, Klaytn등등의 블록체인은 P2P 네트웍환경에서 작동하는데 이를 줄여서 네트웍이라고 부릅니다.
 
 <div id="unittest"></div>
+
 - Unittest : 내가 만든 코드를 작은 단위로 쪼개어 테스트 하여 코드의 무결성을 검증하는 코드입니다. 이 강의 에서는 Contract의 무결성을 확인하는데 사용하게 됩니다.
