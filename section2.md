@@ -1,8 +1,8 @@
-# **섹션 2 - Smart contract 환경설정** :gear:
+# **섹션 2 - 프로젝트 생성** :gear:
 
 - 섹션 소개
-  
-# npm packages 설치
+
+# 빈폴더 생성및 npm packages 설치
 
 # hardhat.config.ts
 

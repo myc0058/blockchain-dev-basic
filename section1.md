@@ -18,10 +18,12 @@
 
 - Visual Studio Code 이하 줄여서 VSCode로 부릅니다
 
-- https://code.visualstudio.com/download or 구글에서 VSCode라고 검색하여 다운로드 페이지로 이동
+- https://code.visualstudio.com/download or 구글에서 VSCode로 검색하여 다운로드 페이지로 이동
 
-- 본인의 OS에 맞는 VSCode를 다운로드 받아 설치
+- 본인의 OS에 맞는 VSCode를 다운로드 받아 설치, Mac에서는 Visual Studio Code.app을 다운로드 받고 Applications 폴더로 드래깅
 
+- 설치중 아무런 옵션도 바꾸지 않고 그대로 설치 진행
+  
 - VSCode 실행하여 에러가 발생하지 않으면 확인 끝
   
 # Node.js 설치
@@ -30,7 +32,9 @@
 
 - https://nodejs.org/en/download/ or 구글에서 Nodejs로 검색하여 다운로드 페이지로 이동
 
-- 본인의 OS에 맞는 NodeJS를 다운로드 받아 설치
+- 본인의 OS에 맞는 NodeJS를 다운로드 받아 설치, Mac에서는 node-vx.x.x.pkg 파일을 다운로드받고 설치
+
+- 설치중 아무런 옵션도 바꾸지 않고 그대로 설치 진행
 
 - 아래 코드를 VSCode Terminal 창에서 실행하여 version이 표시되면 확인 끝
   ```
