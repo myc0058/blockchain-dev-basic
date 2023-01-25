@@ -1,14 +1,18 @@
 # **섹션 1 - 환경설정** :gear:
 
-## Visual Studio 설치 및 확인
+(TODO)
 
+## Visual Studio
+
+- Editor
+  
 - 가벼움
   
 - Extension(Plugin)을 설치하여 다양한 언어로 개발가능
 
 - 많은 개발자가 사용하고 있고 빠르게 기능 업데이트가 이루어짐
     
-## Node.js 설치 및 확인
+## Node.js
 
 - 비동기 이벤트 기반 Java Script(줄여서 JS라고 씀) 런타임입니다. 간단하게 설명하자면 JS파일을 실행시켜주는 프로그램
 
@@ -48,7 +52,7 @@
 
 - 이후 강의 진행부터는 OS와 상관없이 동일 합니다.
 
-# 용어집
+# 지식 사전
 
 <div id="compile"></div>
 

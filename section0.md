@@ -1,5 +1,9 @@
 # **섹션 0 - OT** :smile:
 
+(TODO)
+- 전체적으로 이모지를 많이 써보자
+- 맞춤법 확인
+- 
 # 강사 소개
 
 - 이름 : 모 영철
@@ -8,7 +12,7 @@
   
 - 한때 Mensa 회원 (지금은 회비를 내지않아서....:sob:)
   
-- 현재 블록체인 프로젝트 (OrbCity.io)에서 Smart Contract 개발과 Backend 개발을 맡고 있음
+- 현재 블록체인 프로젝트 (OrbCity.io)에서 Smart Contract 개발과 Backend 개발을 맡고 있습니다
   
 - 강의 자료 : (TODO)
   <br/>
@@ -73,7 +77,7 @@
 
 - 위 환경에서 여러분들은 Contract를 개발하고 [Unittest](#unittest)로 검증하고 HardHat으로 배포하고 사용하는 과정을 실습을 통해 습득하시게 되고 강의가 끝나면 간단한 블록체인 프로젝트의 개발 시작과 끝을 경험해 보실수 있습니다.
 
-# 용어집
+# 지식 사전
 
 <div id="contract"></div>
 

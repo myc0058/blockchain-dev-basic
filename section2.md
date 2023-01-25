@@ -1,6 +1,6 @@
 # **섹션 2 - 프로젝트 생성** :gear:
 
-- 섹션 소개
+- (TODO)
 
 # 빈폴더 생성및 npm packages 설치
 
@@ -52,12 +52,12 @@
 
     아래 화면을 따라 메뉴를 화면에 띄우고 (단축키는 외워두시면 좋습니다 :heart_eyes:)
 
-    ![Alt text](section3/settings_location.png)
+    ![Alt text](section2/settings_location.png)
 
     아래 설정을 확인합니다.
-    
+
     - Editor: Default Formatter -> Prettier - Code formatter
     - Solidity: Formatter -> prettier
     - Editor: Format On Save -> Check!
 
-    ![Alt text](section3/settings_formatter.png)
+    ![Alt text](section2/settings_formatter.png)

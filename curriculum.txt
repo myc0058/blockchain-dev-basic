@@ -68,6 +68,8 @@
 		Transaction 살펴보기
 		내 EOA 살펴보기
 		내 Contract 살펴보기
+			bytecode와 배포된 bytecode 비교하기
+			
 		내 Transaction 살펴보기
 		
 	섹션 7. 끝
