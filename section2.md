@@ -36,7 +36,7 @@
     ```
 - Prettier 설치
 
-- .prettier.js 파일 추가
+- .prettierrc.js 파일 추가
     ```
     TODO
     ```
@@ -48,16 +48,14 @@
     TODO
     ```
 
-- Formatter 설정
+- /.vscode/settings.json 파일 추가
 
-    아래 화면을 따라 메뉴를 화면에 띄우고 (단축키는 외워두시면 좋습니다 :heart_eyes:)
+    ```
+    TODO
+    ```
 
-    ![Alt text](section2/settings_location.png)
+- tsconfig.json 파일추가
 
-    아래 설정을 확인합니다.
-
-    - Editor: Default Formatter -> Prettier - Code formatter
-    - Solidity: Formatter -> prettier
-    - Editor: Format On Save -> Check!
-
-    ![Alt text](section2/settings_formatter.png)
+    ```
+    TODO
+    ```
