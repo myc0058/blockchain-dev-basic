@@ -71,7 +71,11 @@
 			bytecode와 배포된 bytecode 비교하기
 			
 		내 Transaction 살펴보기
-		
+	
+	섹션 7. ERC20
+
+	섹션 8. ERC721
+	
 	섹션 7. 끝
 		강의 Review
 		다음 강의 소개

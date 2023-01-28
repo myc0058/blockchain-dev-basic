@@ -1,0 +1,129 @@
+# **섹션 5 - Smart Contract with Klaytn** :spider_web:
+
+- (TODO)
+
+# Klaytn network 소개
+
+- Klaytn은 EVM 호환 네트웍입니다.
+
+- testnet의 이름은 baobab이고 mainnet의 이름은 cypress입니다.
+
+- 가스비가 적고 테스트 네트웍에서 테스트하기 충분한 가스비용 Klaytn을 받을수 있습니다.
+  
+- Klaytn Units
+    
+    ![Alt text](section5/klaytn_units.PNG)
+
+- Gas fee(가스비) = Gas Used * Gas Price
+
+- Klaytn Gas Price = 25 gwei ~ 750 gwei
+
+- Gas Price를 올린다고 먼저 채굴되지는 않습니다.
+
+- 트랜잭션을 보낼때 Gas Price를 설정해서 보내야 하는데 권장 가스비를 가져와서 2를 곱한수를 설정(Gas Price가 변경되어 트랜잭션 실패가 나는걸 방지하기 위해)하도록 추천되고 있지만 편의상 750 gwei를 넣겠습니다. 750 gwei를 넣어도 현재 필요한 Gas Price를 사용하도록 되어 있습니다.
+
+
+# EOA 생성
+
+- src/wallet 폴더 생성
+
+- 위 폴더에 create-key.ts 파일 추가
+
+- 위 파일에 계정 생성 코드 추가 (강의 참조)
+
+- 스크립트 실행
+ 
+    ```npx hardhat run .\src\wallet\create-key.ts```
+
+- 스크립트 결과
+  
+    ```
+    address: 0x95eF115D7E4158405272dCCC7299a482c355D02a
+    mnemonic: ugly state venture detect bullet situate tobacco put size zero olive ostrich
+    privateKey: 0x9daf48c23c0432f21c31b0772ff5ba552e7229316e82ffe25b3f3731ebe4cee9
+    ```
+
+- 강의 자료에 있는 키를 쓰지 마시고 직접 만들어서 쓰시기 바랍니다!!:bow:
+   
+# .env
+
+- OS에는 환경변수란게 있습니다. 여러 프로그램들이 공통으로 사용할 특정 값들이 저장되어 있다고 생각하시면 됩니다.
+
+- .env 파일은 내가 실행할 스크립트에만 적용될 환경변수를 넣는 파일입니다.
+
+- 이 파일에는 보통 id/pw나 DB의 주소같은 실행할 환경마다 달라져야 되는 값들을 넣습니다. (Test Machine과 Live Machine은 서로 DB를 바라보고 있을테니까요. :smiley:)
+
+- .env 파일 추가
+
+- dotenv import 추가
+    
+    ```
+    import 'dotenv/config';
+    ```
+
+- .env_sample 파일 추가
+
+# hardhat.config.ts
+
+- 원하는 network과 통신하기위해 RPC서버 라는게 필요합니다. RPC서버는 End Point라고도 부릅니다.
+
+- 모든 사람에게 오픈되어 있는 RPC 서버를 public 서버, 오픈되어 있지 않은 RPC 서버를 private 서버라고 합니다.
+
+- cypress public endpoint
+
+    ![Alt text](section5/cypress_rpc.PNG)
+
+- baobab public endpoint
+
+    ![Alt text](section5/baobab_rpc.PNG)
+
+    
+- baobab network 추가
+    ```
+    baobab: {
+        url: "https://klaytn-baobab-rpc.allthatnode.com:8551",
+        accounts: [process.env.PRIVATE_KEY || ""],
+        chainId: 1001
+    }
+    ```
+
+
+# Deploy to klaytn
+		
+- Deploy 스크립트 만들기
+
+    - /src/utils 폴더생성
+
+    - gas.ts 파일 추가
+
+    - gas.ts 스크립트 만들기
+
+    - /src/greeter 폴더 생성
+
+    - deploy.ts 파일 추가
+
+    - deploy 스크립트 만들기
+
+    - klaytn faucet - baobab klaytn 받기
+
+        - https://baobab.wallet.klaytn.foundation/ 열기 혹은 구글에서 klaytn wallet으로 검색
+
+            ![Alt text](section5/baobab_wallet.png)
+
+        - 오른쪽 상단에 Baobab Testnet으로 안되어 있으면 Baobab으로 변경
+
+        - 왼쪽 하단에 Klay Faucet 클릭!
+
+        - 자기가 만든 public key를 입력하고 하단에 Run Faucet 클릭
+            
+            ![Alt text](section5/baobab_wallet2.png)
+
+        - Klaytn 수량이 올라가면 성공!
+
+            ![Alt text](section5/baobab_wallet3.png)
+
+        - 과용을 막기위해서 24시간에 한번만 가능합니다.
+  
+    - deploy 스크립트 실행
+
+# Interaction with Smart Contract
