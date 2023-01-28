@@ -96,13 +96,26 @@
 
     - 다른 점은 비동기 함수는 함수 호출할때 await 이라는 keyword를 넣습니다.
 
-    - 그럼 await을 붙여야 할지 말아야 할지는 어떻게 알수 있는가 함수 선언할때 async 키워드가 있으면 await을 넣어주세요. 혹은 함수의 Return값이 Promise<???> 이면 await을 붙여주세요.
+    - 그럼 await을 붙여야 할지 말아야 할지는 어떻게 알수 있는가? 함수 선언할때 async 키워드가 있으면 await을 넣어주세요. 혹은 함수의 return값이 Promise<???> 이면 await을 붙여주세요.
 
     - 그래도 혹시 실수로 await을 안 넣었다면??? eslint가 일부 찾아줍니다.
 
-- 테스트 코드 만들기
 
-컨트랙트 배포
-테스트 코드 만들기
-Unittest with event
-Debugging - require, console.log()
+- 테스트 코드 만들기
+    
+    - contract deploy
+
+    - constructor
+
+    - setGreeting
+
+    - setGreeting with event
+
+    - getGreetingHistory
+
+    - Ether 단위 설명
+  ![Alt text](section4/eth_units.PNG)
+  
+    - setGreetingPayable
+
+    - withdraw
