@@ -43,7 +43,7 @@
     privateKey: 0x9daf48c23c0432f21c31b0772ff5ba552e7229316e82ffe25b3f3731ebe4cee9
     ```
 
-- 강의 자료에 있는 키를 쓰지 마시고 직접 만들어서 쓰시기 바랍니다!!:bow:
+- 강의 자료에 있는 키를 쓰지 마시고 직접 만들어서 쓰시기 바랍니다. 충분히 많은 baobab klaytn이 있지만 여러사람이 같이 사용하면 언젠가 바닥나서 강의 진행이 어려울겁니다. :bow:
    
 # .env
 
@@ -104,26 +104,62 @@
 
     - deploy 스크립트 만들기
 
-    - klaytn faucet - baobab klaytn 받기
-
-        - https://baobab.wallet.klaytn.foundation/ 열기 혹은 구글에서 klaytn wallet으로 검색
-
-            ![Alt text](section5/baobab_wallet.png)
-
-        - 오른쪽 상단에 Baobab Testnet으로 안되어 있으면 Baobab으로 변경
-
-        - 왼쪽 하단에 Klay Faucet 클릭!
-
-        - 자기가 만든 public key를 입력하고 하단에 Run Faucet 클릭
-            
-            ![Alt text](section5/baobab_wallet2.png)
-
-        - Klaytn 수량이 올라가면 성공!
-
-            ![Alt text](section5/baobab_wallet3.png)
-
-        - 과용을 막기위해서 24시간에 한번만 가능합니다.
+    - Unit Test와 다른 점 - wait()
   
-    - deploy 스크립트 실행
+- klaytn faucet - baobab klaytn 받기
 
+    - https://baobab.wallet.klaytn.foundation/ 열기 혹은 구글에서 klaytn wallet으로 검색
+
+        ![Alt text](section5/baobab_wallet.png)
+
+    - 오른쪽 상단에 Baobab Testnet으로 안되어 있으면 Baobab으로 변경
+
+    - 왼쪽 하단에 Klay Faucet 클릭!
+
+    - 나의 public key를 입력하고 하단에 Run Faucet 클릭
+            
+        ![Alt text](section5/baobab_wallet2.png)
+
+    - Klaytn 수량이 올라가면 성공! :smiley:
+
+        ![Alt text](section5/baobab_wallet3.png)
+
+    - 24시간에 한번만 가능합니다.
+  
+- deploy 스크립트 실행
+
+- Klaytn scope에서 확인
+
+    - Block, From, To, Nonce
+
+    - Gas Price, Effective Gas Price, Gas Used, Gas Limit, TX Fee
+
+    - bytecode와 배포된 bytecode 비교하기
+  
 # Interaction with Smart Contract
+
+- Interaction 스크립트 만들기
+
+    - /src/greeter/interaction.ts 파일 추가
+
+    - interaction.ts 스크립트 만들기
+
+- estimateGas()
+
+    - /src/greeter/estimate-gas.ts 파일 추가
+
+    - estimate-gas.ts 스크립트 만들기
+
+- Klaytn scope에서 확인
+
+    - Amount, Method, Method Signature
+
+    - Event Logs
+
+    - Input Data
+
+- Method Signature 만들기
+    
+    - /src/greeter/get-method-signatures.ts 추가
+
+    - get-method-signatures.ts
