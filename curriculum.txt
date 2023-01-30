@@ -73,6 +73,10 @@
 		내 Transaction 살펴보기
 	
 	섹션 7. ERC20
+		OpenZepplin 소개
+		ERC20 소개
+		내 ERC20 코인 만들기
+		
 
 	섹션 8. ERC721
 	
