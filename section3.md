@@ -116,12 +116,12 @@
         - 하지만 private변수의 값을 가져오는 함수가 아예 없는것은 아닙니다. ```getStorageAt``` 함수로 private변수라도 값을 볼수 있습니다.
 
         - 그러므로 private 변수에 중요 데이타를 저장하면 안됩니다.
-  
+
 - Contract 멤버함수
 
     - public view, public, private view, private
         
-        - private함수는 Contract 외부에서 호출할수 없고 public 함수는 외부에서 호출할수 있습니다.
+        - private함수는 Contract 내부에서 가능하고 외부에서 호출할수 없고 public 함수는 내부, 외부에서 호출할수 있습니다.
 
     - payable, require
 
