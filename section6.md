@@ -15,7 +15,7 @@
 
 # ERC20 소개
 
-- ERC-20은 Ethereum Request for Comment 20의 약자이다. 20은 리퀘스트 숫자다. 이더리움 네트워크의 개선안을 제안하는 EIPs(Ethereum Improvement Proposals)에서 관리하는 공식 프로토콜(규약)입니다.
+- ERC-20은 Ethereum Request for Comment 20의 약자입니다. 20은 리퀘스트 숫자다. 이더리움 네트워크의 개선안을 제안하는 EIPs(Ethereum Improvement Proposals)에서 관리하는 공식 프로토콜(규약)입니다.
 
 - ERC20 규약을 지켜야 내가 만튼 코인이 널리 사용될수 있습니다. (예 : MetaMask 코인전송)
   
@@ -46,6 +46,8 @@
     - function transferFrom(address from, address to, uint256 amount) external returns (bool);
         - 다른 계정의 코인 전송
 
+- ERC20.sol 살펴 보기
+  
 # ERC20 내 코인 만들기
 
 - /contracts/Momo.sol 파일 추가

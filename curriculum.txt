@@ -82,6 +82,16 @@
 		ERC20(FT)과 ERC721(NFT)
 		보통 FT를 토큰이라고 줄여서 말하고 NFT와 혼돈될 수 있지만 NFT는 NFT라고 말합니다.
 
+
+	섹션 9. Opensea
+
+		Metamask
+		배포한 NFT의 컨트랙트 주소를 넣고 민팅된 NFT 확인
+		Collection 만들기, Royalty 지정
+
+	섹션 10. Momo 코인받고 NeoMonkey Minting 해주기
+
+	
 	섹션 7. 끝
 		강의 Review
 		다음 강의 소개
