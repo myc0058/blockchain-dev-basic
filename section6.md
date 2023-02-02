@@ -82,7 +82,7 @@
 
 - Unit Test 실행
     ```
-    npx hardhat test .\test\Momo.test.ts
+    npx hardhat test .\test\momo.test.ts
     ```
 
 # Momo Token klaytn에 Deploy

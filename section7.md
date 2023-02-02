@@ -69,7 +69,7 @@
 
 - Unit Test 실행
     ```
-    npx hardhat test .\test\Monkey.test.ts
+    npx hardhat test .\test\monkey.test.ts
     ```
 
 # Monkey NFT klaytn에 Deploy
@@ -84,7 +84,7 @@
 
 - deploy.ts 실행
     ```
-    npx hardhat run --network baobab .\src\Monkey\deploy.ts
+    npx hardhat run --network baobab .\src\monkey\deploy.ts
     ```
 
 # Monkey NFT Mint
@@ -95,6 +95,6 @@
 
 - mint.ts 실행
     ```
-    npx hardhat run --network baobab .\src\Monkey\mint.ts
+    npx hardhat run --network baobab .\src\monkey\mint.ts
     ```
 
