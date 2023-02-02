@@ -55,7 +55,7 @@
 
 - .env 파일 추가
 
-- dotenv import 추가
+- hardhat.config.ts에 dotenv import 추가
     
     ```
     import 'dotenv/config';

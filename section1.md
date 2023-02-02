@@ -5,13 +5,13 @@
 ## Visual Studio
 
 - Editor
-  
+
 - 가벼움
-  
+
 - Extension(Plugin)을 설치하여 다양한 언어로 개발가능
 
 - 많은 개발자가 사용하고 있고 빠르게 기능 업데이트가 이루어짐
-    
+
 ## Node.js
 
 - 비동기 이벤트 기반 Java Script(줄여서 JS라고 씀) 런타임입니다. 간단하게 설명하자면 JS파일을 실행시켜주는 프로그램
@@ -27,9 +27,8 @@
 - 본인의 OS에 맞는 VSCode를 다운로드 받아 설치, Mac에서는 Visual Studio Code.app을 다운로드 받고 Applications 폴더로 드래깅
 
 - 설치중 아무런 옵션도 바꾸지 않고 그대로 설치 진행
-  
 - VSCode 실행하여 에러가 발생하지 않으면 확인 끝
-  
+
 # Node.js 설치
 
 - Node.js를 NodeJS 또는 Node라고 부르기도 함
@@ -41,12 +40,14 @@
 - 설치중 아무런 옵션도 바꾸지 않고 그대로 설치 진행
 
 - 아래 코드를 VSCode Terminal 창에서 실행하여 version이 표시되면 확인 끝
-  ```
-  node --version
-  ```
-  ```
-  npm --version
-  ```
+
+    ```
+    node --version
+    ```
+
+    ```
+    npm --version
+    ```
 
 # Next
 

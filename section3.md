@@ -95,7 +95,7 @@
 
 - non view 함수는 [Transaction](#transaction)을 발생시킵니다.
 
-- view 함수와 none view 함수는 EOA에서 함수를 호출하는 방법이 다릅니다. view 함수는 ```eth_call``` Ethereum RPC Method(이하 Method)를 사용하고 none view 함수는 ```eth_sendTransaction``` Method를 사용합니다. 
+- view 함수와 none view 함수는 EOA에서 함수를 호출하는 방법이 다릅니다. view 함수는 ```eth_call``` Ethereum JSON-RPC API를 사용하고 none view 함수는 ```eth_sendTransaction``` Method를 사용합니다. 
 
 - ```eth_call```은 가스비가 필요하지 않고 eth_sendTransaction [가스비](#gas)가 필요합니다.
 
@@ -158,7 +158,7 @@
 
 <div id="gas"></div>
 
-- 가스비 (gas fee) : 컨트랙트에 write가 가능한 함수(non view 함수)들을 호출할때는 Transaction을 네트웍에 보내어 채굴자가 채굴함으로 나 트랜잭션이 실행될수 있습니다. 이때 트랜잭션을 보낸 EOA는 가스비를 지불하고 채굴자는 가스비의 일부를 보상으로 받게 됩니다.
+- 가스비 (gas fee) : 컨트랙트에 write가 가능한 함수(non view 함수)들을 호출할때는 Transaction을 네트웍에 보내어 채굴자가 채굴함으로 나의 트랜잭션이 실행될수 있습니다. 이때 트랜잭션을 보낸 EOA는 가스비를 지불하고 채굴자는 가스비의 일부를 보상으로 받게 됩니다.
 
 <div id="revert"></div>
 

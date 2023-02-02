@@ -55,25 +55,35 @@
 - Momo.sol 스크립트 만들기
 
 - Compile
-```
-npx hardhat compile
-```
+    ```
+    npx hardhat compile
+    ```
+
+- hardhat.config.ts에 hardhat-typechain import 추가
+    ```
+    import 'hardhat-typechain';
+    ```
 
 - Typechain
-```
-npx hardhat typechain
-```
+    ```
+    npx hardhat typechain
+    ```
 
 # Momo Token UnitTest 만들기
+
+- hardhat.config.ts에 hardhatwaffle import 추가
+    ```
+    import '@nomiclabs/hardhat-waffle';
+    ```
 
 - /test/Momo.test.ts 파일 추가
 
 - Momo.test.test 스크립트 만들기
 
 - Unit Test 실행
-```
-npx hardhat test .\test\Momo.test.ts
-```
+    ```
+    npx hardhat test .\test\Momo.test.ts
+    ```
 
 # Momo Token klaytn에 Deploy
 
@@ -84,9 +94,9 @@ npx hardhat test .\test\Momo.test.ts
 - deploy.ts 스크립트 만들기
 
 - deploy.ts 실행
-```
-npx hardhat run --network baobab .\src\momo\deploy.ts
-```
+    ```
+    npx hardhat run --network baobab .\src\momo\deploy.ts
+    ```
 
 
 # Momo Token Balance 가져오기
@@ -96,6 +106,6 @@ npx hardhat run --network baobab .\src\momo\deploy.ts
 - get-balance.ts 스크립트 만들기
 
 - get-balance.ts 실행
-```
-npx hardhat run --network baobab .\src\momo\get-balance.ts
-```
+    ```
+    npx hardhat run --network baobab .\src\momo\get-balance.ts
+    ```

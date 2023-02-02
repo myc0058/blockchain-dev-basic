@@ -52,14 +52,14 @@
 - Momo.sol 스크립트 만들기
 
 - Compile
-```
-npx hardhat compile
-```
+    ```
+    npx hardhat compile
+    ```
 
 - Typechain
-```
-npx hardhat typechain
-```
+    ```
+    npx hardhat typechain
+    ```
 
 # Monkey NFT UnitTest 만들기
 
@@ -68,9 +68,9 @@ npx hardhat typechain
 - Monkey.test.test 스크립트 만들기
 
 - Unit Test 실행
-```
-npx hardhat test .\test\Monkey.test.ts
-```
+    ```
+    npx hardhat test .\test\Monkey.test.ts
+    ```
 
 # Monkey NFT klaytn에 Deploy
 
@@ -80,10 +80,12 @@ npx hardhat test .\test\Monkey.test.ts
 
 - deploy.ts 스크립트 만들기
 
+- [Opensea metadata standards](https://docs.opensea.io/docs/metadata-standards)
+
 - deploy.ts 실행
-```
-npx hardhat run --network baobab .\src\Monkey\deploy.ts
-```
+    ```
+    npx hardhat run --network baobab .\src\Monkey\deploy.ts
+    ```
 
 # Monkey NFT Mint
 
@@ -92,7 +94,7 @@ npx hardhat run --network baobab .\src\Monkey\deploy.ts
 - mint.ts 스크립트 만들기
 
 - mint.ts 실행
-```
-npx hardhat run --network baobab .\src\Monkey\mint.ts
-```
+    ```
+    npx hardhat run --network baobab .\src\Monkey\mint.ts
+    ```
 
