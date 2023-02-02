@@ -1,7 +1,7 @@
 # **섹션 7 - Opensea** :boat:
 
 - (TODO)
-- :warning: Opensea, Metamask 서비스 변경으로 강의 자료와 맞지 않을수 있음.
+- :warning: Opensea, Metamask는 크게 변경되지 않는 서비스입니다. 하지만 미래에 서비스 변경으로 강의 내용과 맞지 않을수 있습니다.
 
 - :warning: 이미 Metamask를 사용하셨던분이거나 Opensea를 이용해 보신분들은 강의 내용과 조금 다른 스텝을 만날수 있습니다. 어떤 화면이 나오시던지 예나 다음, 수락등의 긍정적인 버턴을 누르시면 문제 없이 넘어가실수 있습니다. 
   
@@ -26,6 +26,8 @@
     - Metamask는 여러 브라우저를 지원하지만 여기서는 크롬을 사용하겠습니다.
 
 # Metamask 설치
+
+- Chrome Metamask Extension을 설치해보겠습니다.
 
 - 크롬에서 [Metamask Download](https://metamask.io/download/) 페이지로 이동
 
@@ -55,6 +57,8 @@
 - 완료!!!!
 
 # Edit My Collection
+
+- Opensea에서 Metamask를 연결하고 Collection 정보를 수정해 보겠습니다.
 
 - Collection은 한 NFT 컨트랙트에서 Mint된 NFT들의 모음입니다. 내 NFT의 홈페이지 같은거라고 보시면 될거 같습니다.
 
@@ -92,13 +96,13 @@
 
     ![Alt text](section8/metamask_sign.png)
 
-- Opensea에서 어떤 버턴을 눌러도 진행되지 않는다면 크롬 우측 상단 Metamask 버턴에 1 뱃지가 있는지 확인
+- :warning:Opensea에서 어떤 버턴을 눌러도 진행되지 않는다면 크롬 우측 상단 Metamask 버턴에 1 뱃지가 있는지 확인
 
     ![Alt text](section8/metamask_badge.png)
 
 - Monkey Collection 페이지로 이동
 
-- Edit 버턴 클릭
+- Edit 버턴 클릭. :warning: Edit버턴이 보이지 않는다면 Monkey NFT를 배포한 주소와 다른 주소를 사용하고 있다는 얘기입니다. Metamask의 현재 연결 계정을 확인해주세요
     ![Alt text](section8/open_sea_owner_edit.png)
 
 - Log image, Featured image
