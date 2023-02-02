@@ -150,7 +150,7 @@
 - train.ts 실행
 
     ```
-    npx hardhat run --network baobab .\src\Monkey\train.ts
+    npx hardhat run --network baobab .\src\monkey\train.ts
     ```
 
 - Opensea에서 변경된 Metadata를 확인해보면 아직 변경되지 않은것을 알수 있습니다. Opensea는 원활한 서비스를 위해 Metadata를 Caching하고 있는데요. Caching된 데이타가 아직 변경되지 않았기 때문입니다.
