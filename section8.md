@@ -164,14 +164,15 @@
     - 현재 사용하시는 네트웍이 아래 API를 지원하는지 확인하세요.
   
     - Testnet
-    ```
-    https://testnets-api.opensea.io/api/v1/asset/0x556a47b6e5269a1287dc843f581ba8afd07fb062/1/?force_update=true
-    ```
+    
+        ```
+        https://testnets-api.opensea.io/api/v1/asset/0x556a47b6e5269a1287dc843f581ba8afd07fb062/1/?force_update=true
+        ```
 
     - Mainnet
-    ```
-    https://api.opensea.io/api/v1/asset/0x556a47b6e5269a1287dc843f581ba8afd07fb062/1/?force_update=true
-    ```
+        ```
+        https://api.opensea.io/api/v1/asset/0x556a47b6e5269a1287dc843f581ba8afd07fb062/1/?force_update=true
+        ```
 
 - Refresh metadata
 
