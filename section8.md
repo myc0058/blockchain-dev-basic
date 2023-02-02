@@ -134,3 +134,49 @@
 - Submit changes 버턴 클릭
 
 - My Collection 확인
+
+# Refresh Metadata
+
+- Monkey NFT Contract의 train 함수를 호출하여 레벨을 변경하겠습니다.
+
+- /src/monkey/train.ts 파일 추가
+
+- train.ts 스크립트 만들기
+
+    ```
+    (TODO)
+    ```
+
+- train.ts 실행
+
+    ```
+    npx hardhat run --network baobab .\src\Monkey\train.ts
+    ```
+
+- Opensea에서 변경된 Metadata를 확인해보면 아직 변경되지 않은것을 알수 있습니다. Opensea는 원활한 서비스를 위해 Metadata를 Caching하고 있는데요. Caching된 데이타가 아직 변경되지 않았기 때문입니다.
+
+- Caching이라는것은 보통 데이타의 접근이 더 빠른 저장소로 데이타를 카피하는 작업을 말합니다.
+
+- force update 지원여부
+
+    - 아래 API로 메타데이타를 강제로 업데이트 가능 하지만 Klaytn network는 지원하지 않습니다.
+  
+    - 현재 사용하시는 네트웍이 아래 API를 지원하는지 확인하세요.
+  
+    - Testnet
+    ```
+    https://testnets-api.opensea.io/api/v1/asset/0x556a47b6e5269a1287dc843f581ba8afd07fb062/1/?force_update=true
+    ```
+
+    - Mainnet
+    ```
+    https://api.opensea.io/api/v1/asset/0x556a47b6e5269a1287dc843f581ba8afd07fb062/1/?force_update=true
+    ```
+
+- Refresh metadata
+
+
+    - Refresh metadata 버튼 클릭
+        ![Alt text](section8/refresh_metadata.png)
+
+    - 잠시 뒤에 내 NFT의 화면을 Refresh 해보면 Metadata가 변경된것을 확인할 수 있습니다.
