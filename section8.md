@@ -1,4 +1,4 @@
-# **섹션 7 - Opensea** :boat:
+# **섹션 8 - Opensea** :boat:
 
 - (TODO)
 - :warning: Opensea, Metamask는 크게 변경되지 않는 서비스입니다. 하지만 미래에 서비스 변경으로 강의 내용과 맞지 않을수 있습니다.

@@ -89,11 +89,14 @@
 		배포한 NFT의 컨트랙트 주소를 넣고 민팅된 NFT 확인
 		Collection 만들기, Royalty 지정
 
-	섹션 10. Momo 코인받고 NeoMonkey Minting 해주기
+	섹션 10. Momo 코인받고 NewMonkey sale - Contract
 
+	섹션 11. Momo 코인받고 NewMonkey sale - frontend
 
-	섹션 11. 끝
+	섹션 12. 끝
 		강의 Review
+			hardhat boilerplate
+
 		다음 강의 소개
             블럭체인 코어팀에게 필요한 개론
 			Smart 컨트랙트 개발

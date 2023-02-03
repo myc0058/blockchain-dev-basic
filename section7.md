@@ -45,18 +45,13 @@
 
 - IERC721.sol 살펴보기
 
-# ERC721 내 NFT 만들기
+# ERC721 My NFT 만들기
 
 - /contracts/Monkey.sol 파일 추가
 
-- Momo.sol 스크립트 만들기
+- Monkey.sol 만들기
 
-- Compile
-    ```
-    npx hardhat compile
-    ```
-
-- Typechain
+- Typechain 만들기
     ```
     npx hardhat typechain
     ```
@@ -65,11 +60,11 @@
 
 - /test/Monkey.test.ts 파일 추가
 
-- Monkey.test.test 스크립트 만들기
+- Monkey.test.ts 스크립트 만들기
 
 - Unit Test 실행
     ```
-    npx hardhat test .\test\monkey.test.ts
+    npx hardhat test .\test\Monkey.test.ts
     ```
 
 # Monkey NFT klaytn에 Deploy

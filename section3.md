@@ -137,8 +137,10 @@
 
     - 특정 Contract에서 다른 컨트랙트의 non view 함수를 호출할때는 returns의 값을 받을수 있습니다.
 
-- compile
-
+- Compile
+    
+    ```npx hardhat compile```
+    
 - Greeter.json 확인
 
 

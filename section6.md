@@ -52,19 +52,14 @@
 
 - /contracts/Momo.sol 파일 추가
 
-- Momo.sol 스크립트 만들기
-
-- Compile
-    ```
-    npx hardhat compile
-    ```
+- Momo.sol 만들기
 
 - hardhat.config.ts에 hardhat-typechain import 추가
     ```
     import 'hardhat-typechain';
     ```
 
-- Typechain
+- Typechain 만들기
     ```
     npx hardhat typechain
     ```
