@@ -1,4 +1,4 @@
-# **섹션 9 - presale** :boat:
+# **섹션 9 - Presale - Contract** :rocket:
 
 (TODO)
   
