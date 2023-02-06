@@ -30,7 +30,7 @@
 
     ```npm install --save-dev web3```
 
-- web3는 
+- web3는 JavaScript web3입니다. Ethereum관련 개발을 편하게 해주는 코드들이 있고 ehers라는 라이브러리도 있는데 여기서는 web3를 사용해 보겠습니다. 
 
 - lite-server 실행
 
@@ -160,64 +160,36 @@
 
     - 그래서 이런경우 둘중에 한개의 Wallet은 삭제를 하셔야 하고 window.ethereum.isMetaMask라는 변수로 지금 생성되어 있는 window.ethereum 오브젝트가 Metamask가 생성한 오브젝트가 맞는지를 확인하는 변수가 존재합니다.
 
+    - 과거에 Coin98이라는 wallet과 충돌이 있었습니다.
+
+
+- index.html 변경하기
+
+    - UI추가하기
+    
+    - 스크립트 이름 변경
+        
+        from
+        ```
+        <script src="js/app.js"></script>
+        ```
+        to
+        ```
+        <script src="js/bundle.js"></script>
+        ```
+
 - app.js 스크립트 만들기
 
-    - Metamask 설치 확인 코드 추가
+    ```
+    (TODO)
+    ```
 
-        ```
-        if (window.ethereum && window.ethereum.isMetaMask == true) {
-            console.log('ready metamask');
-        } else {
-            console.log('no metamask');
-        }
-        ```
-
-    - Metamask Event 코드 추가
-
-        ```
-        window.ethereum.removeAllListeners();
-
-        function accountsChanged(accounts) {
-            console.log('on accountsChanged: ' + JSON.stringify(accounts));
-        }
-
-        window.ethereum.on('accountsChanged', accountsChanged);
-
-        window.ethereum.on('chainChanged', chainId => {
-            console.log('on chainChanged: ' + JSON.stringify(chainId));
-        });
-
-        window.ethereum.on('connect', connectInfo => {
-            console.log('on connect: ' + JSON.stringify(connectInfo));
-        });
-
-        window.ethereum.on('disconnect', error => {
-            console.log('on disconnect: ' + JSON.stringify(error));
-        });
-
-        window.ethereum.on('message', message => {
-            console.log('on message: ' + JSON.stringify(message));
-        });
-
-        const accounts = await window.ethereum.request({
-            method: 'eth_requestAccounts',
-        });
-
-        accountsChanged(accounts);
-        ```
+- ```npm run pack```
 
 - Metamask로 이벤트 확인하기
 
-# Metamask 연동 - (TODO)
+- Metamask로 UI 확인하기
 
+- Metamask로 Minting하기 
 
--코드 변경 index.html, app.js
-
-
-
-npm run pack
-
-app.js to bundle.js
-
-
-트랜잭션 창이 2개가 뜬다. 웹페이지를 2개를 띄우면 트랜잭션도 2개가 만들어진다. 하나는 닫도록
+- :warning: 웹페이지를 2개를 띄우면 트랜잭션창도 2개가 만들어집니다. 하나는 닫도록 합시다.
