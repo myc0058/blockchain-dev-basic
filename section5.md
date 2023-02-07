@@ -1,4 +1,4 @@
-# **섹션 5 - Smart Contract with Klaytn** :spider_web:
+# **Section 5 - Smart Contract with Klaytn** :spider_web:
 
 - (TODO)
 
@@ -88,7 +88,7 @@
     ```
 
 
-# Deploy to klaytn
+# Deploy Greeter to Klaytn
 		
 - Deploy 스크립트 만들기
 

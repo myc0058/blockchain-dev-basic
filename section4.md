@@ -1,4 +1,4 @@
-# **섹션 4 - Unit Test 만들기** :yum:
+# **Section 4 - Unit Test 만들기** :yum:
 
 - (TODO)
 

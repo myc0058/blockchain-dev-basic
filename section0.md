@@ -1,4 +1,4 @@
-# **섹션 0 - OT** :smile:
+# **Section 0 - OT** :smile:
 
 
 

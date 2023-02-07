@@ -1,4 +1,4 @@
-# **섹션 7 - ERC721** :monkey_face:
+# **Section 7 - ERC721** :monkey_face:
 
 - (TODO)
 
@@ -67,7 +67,7 @@
     npx hardhat test .\test\Monkey.test.ts
     ```
 
-# Monkey NFT klaytn에 Deploy
+# Deploy Monkey NFT to Klaytn
 
 - /src/Monkey 폴더추가
 
@@ -82,7 +82,7 @@
     npx hardhat run --network baobab .\src\monkey\deploy.ts
     ```
 
-# Monkey NFT Mint
+# Mint Monkey NFT
 
 - /src/Monkey/mint.ts 파일 추가
 

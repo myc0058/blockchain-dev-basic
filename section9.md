@@ -1,4 +1,4 @@
-# **섹션 9 - Presale - Contract** :rocket:
+# **Section 9 - Presale - Contract** :rocket:
 
 (TODO)
   
@@ -36,7 +36,7 @@
     npx hardhat test .\test\NewMonkey.test.ts
     ```
 
-# NewMonkey NFT klaytn에 Deploy
+# Deploy NewMonkey NFT to Klaytn
 
 - /src/new-monkey 폴더 추가
 
@@ -54,7 +54,7 @@
     npx hardhat run --network baobab .\src\new-monkey\deploy.ts
     ```
 
-# NewMonkey NFT Mint
+# Mint NewMonkey NFT
 
 - /src/new-monkey/mint.ts 파일추가
  

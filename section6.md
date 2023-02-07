@@ -1,4 +1,4 @@
-# **섹션 6 - ERC20** :moneybag:
+# **Section 6 - ERC20** :moneybag:
 
 - (TODO)
 
@@ -64,7 +64,7 @@
     npx hardhat typechain
     ```
 
-# Momo Token UnitTest 만들기
+# Momo Coin UnitTest 만들기
 
 - hardhat.config.ts에 hardhatwaffle import 추가
     ```
@@ -80,7 +80,7 @@
     npx hardhat test .\test\momo.test.ts
     ```
 
-# Momo Token klaytn에 Deploy
+# Deploy Momo Coin to Klaytn
 
 - /src/momo 폴더추가
 
@@ -94,7 +94,7 @@
     ```
 
 
-# Momo Token Balance 가져오기
+# Momo Coin Balance 가져오기
 
 - /src/momo/get-balance.ts 파일 추가
 

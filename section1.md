@@ -1,8 +1,8 @@
-# **섹션 1 - 환경설정** :gear:
+# **Section 1 - 환경설정** :gear:
 
 (TODO)
 
-## Visual Studio
+## Visual Studio 소개
 
 - Editor
 
@@ -12,11 +12,13 @@
 
 - 많은 개발자가 사용하고 있고 빠르게 기능 업데이트가 이루어짐
 
-## Node.js
+## Node.js 소개
 
 - 비동기 이벤트 기반 Java Script(줄여서 JS라고 씀) 런타임입니다. 간단하게 설명하자면 JS파일을 실행시켜주는 프로그램
 
-- ts-node 라이브러리를 사용하면 TS 파일도 [Compile](#compile) 없이 실행가능
+- ts-node 라이브러리를 사용하면 TS 파일도 Compile 없이 실행가능
+
+- Compile : 내가 작성한 소스 코드를 동등한 다른 형태의 무엇으로 변환하는 작업을 말합니다. 위에서 언급한 대로 TS(TypeScript) 파일에는 Compile 과정이 필요 없지만 Solidity 파일(Smart Contract)은 컴파일 과정이 필요합니다. Solidity 파일을 컴파일하면 어떤 파일이 만들어지고 어떻게 사용하는지는 이후 강의에서 알려드립니다.
 
 # Visual Studio Code 설치
 
@@ -49,12 +51,4 @@
     npm --version
     ```
 
-# Next
-
 - 이후 강의 진행부터는 OS와 상관없이 동일 합니다.
-
-# 지식 사전
-
-<div id="compile"></div>
-
-- Compile : 내가 작성한 소스 코드를 동등한 다른 형태의 무엇으로 변환하는 작업을 말합니다. 위에서 언급한 대로 TS 파일에는 Compile 과정이 필요 없지만 Solidity 파일(Smart Contract)은 컴파일 과정이 필요합니다. Solidity 파일을 컴파일하면 어떤 파일이 만들어지고 어떻게 사용하는지는 컴파일 강의 때 알려드립니다.

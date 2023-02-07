@@ -1,4 +1,4 @@
-# **섹션 9 - Presale - Front-End with Metamask *** :spider_web:
+# **Section 10 - Presale - Front-End with Metamask** :spider_web:
 
 (TODO)
 
@@ -76,7 +76,9 @@
 - /frontend/js/app.js 파일 추가
 
     ```
-    (TODO)
+    (async () => {
+        console.log('hello new monkey presale');
+    })();
     ```
 
 - package.json scripts 추가
@@ -99,14 +101,6 @@
 
     ```
     <script src="js/app.js"></script>
-    ```
-
-- /frontend/app.js 파일에 로그 출력 메세지 추가
-
-    ```
-    (async () => {
-        console.log('hello new monkey presale');
-    })();
     ```
 
 - Chrome 개발자 도구에서 확인
@@ -148,7 +142,7 @@
 
         ![Alt text](section10/add_network2.png)
 
-# Metamask 연동 - 이벤트
+# Metamask 연동
 
 - Chrome 개발자 도구에서 window.ethereum 확인하기
 

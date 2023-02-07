@@ -1,4 +1,4 @@
-# **섹션 3 - Smart Contract 만들기** :rocket:
+# **Section 3 - Smart Contract 만들기** :rocket:
 
 - (TODO)
 
@@ -14,7 +14,7 @@
 
 - 인터넷에서 찾은 과거 버전의 코드가 여러분이 사용하는 최신버전에서는 작동하지 않거나 다르게 동작할 가능성이 있어 구체적으로 Version을 명시하지 않은 자료는 꼭 테스트 코드를 작성하여 확인이 필요합니다.
 
-# sol 파일 기본 구조
+# sol 파일 기본 구조 소개
 
 - 예제 컨트랙트 추가하기
   
@@ -83,7 +83,7 @@
 
 # EOA, CA
 
-- [EVM 호환네트웍](#evm_compatible_network)에서 주소는 2가지 Externally-owned account (EOA), Contract Account(CA)가 있습니다.
+- [EVM 호환네트웍](#evm_compatible_network)에서 주소는 2가지 Externally-owned Account (EOA), Contract Account(CA)가 있습니다.
 
 - EOA는 보통 사람들이 말하는 계정을 말합니다. 메타마스크나 다른 유틸리티등을 이용하여 만든 계정들이 이 계정입니다.
 
@@ -103,7 +103,7 @@
 
 - eth_sendTransaction은 가스비를 지불하며 Transaction을 전송하고 채굴자(Miner)가 채굴해주기를 기다려야 합니다.
 
-- Hardhat을 사용하면 위 명령어는 직접 사용하지 않지만 어떻게 다른지는 알아야 합니다.
+- Hardhat을 사용하면 위 명령어는 직접 사용하지 않지만 어떻게 다른지는 알아야 합니다. Metamask와 연동하는 강의(강의 마지막부분)에서 다시 나옵니다.
 
 # Greeter.sol 진화시키기
 
@@ -140,7 +140,7 @@
 - Compile
     
     ```npx hardhat compile```
-    
+
 - Greeter.json 확인
 
 
@@ -150,9 +150,9 @@
 
 - EVM : Ethereum Virtual Machine, 여러 컴퓨터로 이루어진 이더리움 가상 머신입니다. 우리가 만든 Contract가 이 환경에서 실행됩니다.
 
-- EVM 호환 네트웍 (EVM Compatible Network) : EVM과 호환이 가능한 네트웍들입니다. 간단하게 설명하면 solidity를 사용하여 Smart Contract를 개발하고 배포하고 상호작용하는 코드들이 동일하게 작동하는 네트웍들입니다. 종류로는 Binance Smart Chain, Fantom, Polygon, Avalanche, Cardano, Tron, Klaytn등이 있습니다. 
+- EVM 호환 네트웍 (EVM Compatible Network) : EVM과 호환이 가능한 네트웍들입니다. 간단하게 설명하면 solidity를 사용하여 Smart Contract를 개발하고 배포하고 상호작용하는 코드들이 동일하게 작동하는 네트웍들입니다. Binance Smart Chain, Fantom, Polygon, Avalanche, Cardano, Tron, Klaytn등이 있습니다. 
   
-- EVM 네트웍 이전및 확장시 고려할 점: Solidity를 사용하지만 그 이외의 코드들은 호환되지 않는 네트웍도 있고 전부 호환가능한 네트웍들도 있어서 EVM 호환네트웍이라고 소개되지만 가지고 있는 코드로  서비스를 이전이나 확장하기 어려운 네트웍도 있기에 다른 네트웍으로의 배포가 얼마나 용이한지는 살펴봐야 합니다.
+- EVM 네트웍 이전및 확장시 고려할 점: Solidity를 사용하지만 그 이외의 코드들은 호환되지 않는 네트웍도 있고 전부 호환가능한 네트웍들도 있어서 EVM 호환네트웍이라고 소개되지만 가지고 있는 코드로 서비스를 이전이나 확장하기 어려운 네트웍도 있기에 다른 네트웍으로의 배포가 얼마나 용이한지는 살펴봐야 합니다.
 
 <div id="transaction"></div>
 
