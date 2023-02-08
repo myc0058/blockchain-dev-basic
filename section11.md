@@ -77,12 +77,13 @@
 
 # 숙제
 
-- 내가 만든 컨트랙트에 mint 함수를 호출한다. 본인의 닉네임과 직업을 입력하는 함수이고 이 NFT가 곧 수료증이다.
+- Network : Klaytn baobab
+- Contract Address : 
 
-
+스스로 mint하여 수료증을 발급받자
 
 
 
 TODO List 
 
-TODO로 되어 있는거 강의 진행할수 있게 코드들 옮겨 넣어야함
+모두 다시 해야 함 TODO로 되어 있는거 강의 진행할수 있게 코드들 옮겨 넣어야함
