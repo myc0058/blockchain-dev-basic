@@ -603,12 +603,6 @@
 
 - 호출해야할 함수
     
-    ```sol
-    function mint(string memory name) external {
-        ...
-    }
-    ```
-
     ```solidity
     function mint(string memory name) external {
         ...
@@ -623,5 +617,48 @@
 
 # 다음 강의 계획
 
-- OpenZepplin
-    OpenZepplin은 
+- 아직 구체적으로 강의 계획을 세우진 않았습니다.
+- 많은 분들이 원하는 강의로 다음 강의를 정하려고 합니다.
+
+- OpenZepplin Contract 완전정복
+    
+    - OpenZepplin 좋은 학습자료이자 코딩 예제이기도 합니다.
+    - 많은 회사에서 OpenZepplin의 이해를 요구하기에 필요한 강의입니다.
+    - 다만 지식 나열방식의 강의는 시간이 조금만 흘러도 잊어버리기 쉬워 좋은 강의가 될지는 잘 모르겠습니다.
+
+- BlockChain BApp 개발 for React FrontEnd
+
+    - Frontend Jr 이상분들을 대상으로 하며 React를 사용하는 FrontEnd 개발 실무 레벨의 지식들을 다루는 강의입니다.
+    - EVM 호환네트웍을 지원하는 여러 지갑 연동과 설계 전략
+    - Ethereum API (eth_ 시리즈들) 학습
+    - (WebSocket, JSON-RPC를 이용하여)효율적인 트랜잭션 결과 처리등의 강의를 담을거 같습니다.
+
+
+- BlockChain BApp 개발 for BackEnd
+
+    - Backend Jr 이상분들을 대상으로 하며 BApp 개발시 Backend 개발자 분들에게 필요한 강의입니다.
+    - 온체인 데이타 수집
+    - infura.io와 같은 private node 선택및 활용 전략
+    - 블록체인과 관련한 각종 API 개발
+    - EVM 호환 Node 설치및 운영등을 다루게 될거 같습니다.
+    
+
+- Smart Contract 개발 - Advance
+
+    - Smart Contract 개발의 거의 모든걸 다루는 강의입니다.
+
+- Smart Contract Weakness Classification (SWC)
+
+    - 스마트 컨트랙트의 취약점을 다루고 어떻게 해결하는지에 대한 강의입니다.
+
+- 블록체인 개발 코어팀이 알아둬야할 지식백과
+
+    - 블록체인 개발팀에 참여하는 모든 인원이 알아야할 필수 정보들을 담은 강의입니다.
+    - Polygon에서 프로젝트를 시작할때 알아야 할 사항
+    - 자사의 Asset(NFT, FT)의 가격변동에 따른 커뮤니티 반응에 대한 대응
+    - 거버넌스의 의미
+    - 가벼운 블록체인 이론등등의 강의를 담게 될거 같습니다.
+
+- 꼭 위와 같이 강의를 나눌 생각은 없고 필요하신 정보들을 후기를 통해 남겨주시면 조합하여 강의를 만들 생각입니다.
+
+- 수고하셨습니다!! :smiley:
