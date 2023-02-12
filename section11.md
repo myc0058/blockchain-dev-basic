@@ -604,12 +604,24 @@
 - 호출해야할 함수
     
     ```sol
-    function mint(string memory name) external
+    function mint(string memory name) external {
+        ...
+    }
     ```
 
-- mint 함수를 호출하여 수료증 NFT를 내 계정으로 발급받아야 합니다.
+    ```solidity
+    function mint(string memory name) external {
+        ...
+    }
+    ```
+
+- mint 함수를 호출하여 수료증 NFT를 수강자님 계정으로 발급받아야 합니다.
 
 - name 파라미터는 본인 이름이나 닉네임을 넣어주세요. (NFT 이미지에 표시 됩니다.)
 
     ![Alt text](section11/certificate.PNG)
 
+# 다음 강의 계획
+
+- OpenZepplin
+    OpenZepplin은 
