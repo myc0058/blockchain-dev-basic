@@ -15,7 +15,7 @@
 
 - package.json에 라이브러리 추가하기
 
-    ```
+    ```json
     "devDependencies": {
         "@nomiclabs/hardhat-ethers": "^2.0.2",
         "@nomiclabs/hardhat-etherscan": "^2.1.3",
@@ -52,7 +52,7 @@
 # hardhat.config.ts
 
 - hardhat.config.ts 파일추가
-    ```
+    ```ts
     import { HardhatUserConfig } from "hardhat/types";
 
     const config: HardhatUserConfig = {
@@ -86,14 +86,14 @@
 
     ```
 
-- optimizer는 Contract 코드의 크기와 실행비용을 줄이기 위해 사용합니다. runs의 값은 코드크기와 실행비용을 절충하기 위한 값입니다. runs의 값이 클수록 Contract 코드의 크기는 커지고 실행비용은 줄어듭니다.
+    - optimizer는 Contract 코드의 크기와 실행비용을 줄이기 위해 사용합니다. runs의 값은 코드크기와 실행비용을 절충하기 위한 값입니다. runs의 값이 클수록 Contract 코드의 크기는 커지고 실행비용은 줄어듭니다.
 
 # VSCode Extentions 설치
 
 - ESLint Extension 설치
 
 - .eslintrc.js 파일 추가
-    ```
+    ```js
     module.exports = {
         env: {
             browser: false,
@@ -126,7 +126,7 @@
 - Prettier Extension 설치
 
 - .prettierrc.js 파일 추가
-    ```
+    ```js
     module.exports = {
         singleQuote: true,
         semi: true,
@@ -152,7 +152,7 @@
 - Solidity Extension 설치
 
 - .solhint.json 파일 추가
-    ```
+    ```json
     {
         "rules": {
             "no-unused-vars": "error",
@@ -172,7 +172,7 @@
 
 - /.vscode/settings.json 파일 추가
 
-    ```
+    ```json
     {
         "editor.codeActionsOnSave": {
             "source.fixAll.eslint": true
@@ -185,7 +185,7 @@
 
 - tsconfig.json 파일추가
 
-    ```
+    ```json
     {
         "compilerOptions": {
             /* Basic Options */
