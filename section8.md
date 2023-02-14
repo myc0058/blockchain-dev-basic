@@ -1,6 +1,5 @@
 # **Section 8 - Opensea** :boat:
 
-- (TODO)
 - :warning: Opensea, Metamask는 크게 변경되지 않는 서비스입니다. 하지만 미래에 서비스 변경으로 강의 내용과 맞지 않을 수 있습니다.
 
 - :warning: 이미 Metamask를 사용하셨던 분이거나 Opensea를 이용해 보신 분들은 강의 내용과 조금 다른 스텝을 만날 수 있습니다. 
@@ -147,7 +146,7 @@
 
 - train.ts 스크립트 만들기
 
-    - <details><summary>Code</summary>
+    - <details><summary>⌨️ Source Code</summary>
     
         ```ts
         import hre, { ethers } from 'hardhat';

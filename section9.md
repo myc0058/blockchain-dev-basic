@@ -1,14 +1,12 @@
 # **Section 9 - Presale - Contract** :rocket:
 
-(TODO)
-  
 # NewMonkey Contract 만들기
 
 - /contracts/NewMonkey.sol 파일 추가
 
 - NewMonkey.sol 만들기
 
-    - <details><summary>Code</summary>
+    - <details><summary>⌨️ Source Code</summary>
     
         ```solidity
         //SPDX-License-Identifier: MIT
@@ -137,7 +135,7 @@
 
 - NewMonkey.test.ts 만들기
 
-    - <details><summary>Code</summary>
+    - <details><summary>⌨️ Source Code</summary>
     
         ```ts
             import { expect } from 'chai';
@@ -208,7 +206,7 @@
  
 - deploy.ts 스크립트 만들기
 
-    - <details><summary>Code</summary>
+    - <details><summary>⌨️ Source Code</summary>
     
         ```ts
         import hre, { ethers } from 'hardhat';
@@ -272,7 +270,7 @@
  
 - mint.ts 스크립트 만들기
 
-    - <details><summary>Code</summary>
+    - <details><summary>⌨️ Source Code</summary>
     
         ```ts
         import hre, { ethers } from 'hardhat';
@@ -324,7 +322,7 @@
 
 - train.ts 스크립트 만들기
 
-    - <details><summary>Code</summary>
+    - <details><summary>⌨️ Source Code</summary>
     
         ```ts
         import hre, { ethers } from 'hardhat';

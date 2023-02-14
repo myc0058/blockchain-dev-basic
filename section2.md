@@ -1,7 +1,5 @@
 # **Section 2 - 프로젝트 생성** :gear:
 
-- (TODO)
-
 # npm packages 설치
 
 - 원하는 위치에 폴더 생성

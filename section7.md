@@ -1,7 +1,5 @@
 # **Section 7 - ERC721** :monkey_face:
 
-- (TODO)
-
 # ERC721 소개
 
 - ERC-721은 증서라고 알려진 NFT의 표준안입니다. NFT는 대체불가토큰(Non Fungible Token)의 약자로 대체 불가능한 토큰이라는 의미이다. 따라서 ERC-721로 발행되는 토큰은 대체 불가능하여 모두 제 각각의 가치(Value)를 갖고 있습니다.
@@ -51,7 +49,7 @@
 
 - Monkey.sol 만들기
 
-    - <details><summary>Code</summary>
+    - <details><summary>⌨️ Source Code</summary>
     
         ```solidity
         //SPDX-License-Identifier: MIT
@@ -175,7 +173,7 @@
 
 - Monkey.test.ts 스크립트 만들기
 
-    - <details><summary>Code</summary>
+    - <details><summary>⌨️ Source Code</summary>
     
         ```ts
         import { expect } from 'chai';
@@ -237,7 +235,7 @@
 
 - deploy.ts 스크립트 만들기
 
-    - <details><summary>Code</summary>
+    - <details><summary>⌨️ Source Code</summary>
     
         ```ts
         import hre, { ethers } from 'hardhat';
@@ -296,7 +294,7 @@
 
 - mint.ts 스크립트 만들기
 
-    - <details><summary>Code</summary>
+    - <details><summary>⌨️ Source Code</summary>
     
         ```ts
         import hre, { ethers } from 'hardhat';

@@ -1,7 +1,5 @@
 # **Section 4 - Unit Test 만들기** :yum:
 
-- (TODO)
-
 # Unit Test 소개
 
 - Unit Test는 한글로 단위테스트라고 부릅니다.
@@ -110,7 +108,7 @@
 
 - 테스트 코드 만들기
 
-    - <details><summary>Code</summary>
+    - <details><summary>⌨️ Source Code</summary>
     
         ```ts
         import { expect } from 'chai';

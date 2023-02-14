@@ -1,7 +1,5 @@
 # **Section 10 - Presale - Front-End with Metamask** :spider_web:
 
-(TODO)
-
 # Web Server(lite-server) 만들기
 
 - lite-server는 가벼운 웹 어플리케이션을 만들기 위한 라이브러리입니다.
@@ -174,7 +172,7 @@
 
 - app.js 스크립트 만들기
 
-    - <details><summary>Code</summary>
+    - <details><summary>⌨️ Source Code</summary>
     
         ```js
         const Web3 = require('web3');

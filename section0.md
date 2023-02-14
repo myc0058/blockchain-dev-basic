@@ -1,35 +1,21 @@
 # **Section 0 - OT** :smile:
 
-
-
-
-(TODO LIST)
-- 맞춤법 확인
-- 지식사전 없애고 강의 자료 중간에 넣다.
-- 마침표 찾기
-- section2 폴더 필요 없으면 지우기
-- 무엇인가 바뀐부분 report 바랍니다.
-
 # 강사 소개
 
 - 이름 : 모 영철
     
     ![Alt text](section0/face.jpg)
 
-- ERP, Embedded, 게임 클라이언트, 게임 서버, 다양한 경험을 가진 20년 차 Senior 서버 프로그래머
+- 산업기능요원으로 2002년부터 개발업무를 시작하였습니다. ERP, Embedded, 게임 클라이언트, 게임 서버 등등 다양한 경험을 가진 20년 차 Senior 서버 프로그래머
   
 - 한때 Mensa 회원 (지금은 회비를 내지 않아서....:sob:)
+    
     ![mensa](section0/mensa.jpg)
 
-- 현재 블록체인 프로젝트 (OrbCity.io)에서 Smart Contract 개발과 BackEnd 개발을 맡고 있습니다
+- 현재 블록체인 프로젝트 Smart Contract 개발과 BackEnd 개발을 맡고 있습니다
 
-- BApp (BlockChain App) 개발초기에 Best Practice를 찾기 어려워 
 
-# Smart Contract 개발의 필요성
-
-- Smart Contract를 이하 줄여서 Contract라고 부름
-
-    - Smart Contract : 블록체인에 내가 원하는 코드를 배포하고 실행할 수 있습니다. 이 코드를 Smart Contract라고 부릅니다. Smart Contract는 Solidity라는 언어로 작성하게 되고 Solidity 버전은 0.8.17을 사용합니다.
+# BlockChain 개발 교육의 필요성
 
 ## 정보의 접근성이 낮음
 
@@ -37,7 +23,11 @@
   
 - 오래된 정보는 불필요해지거나 제대로 작동하지 않음
   
-- 간단한 `Hello world`급 Contract를 배포하고 실행하는 데까지 필요한 시간과 노력이 너무 많이 들어감
+- 간단한 `Hello world`급 Smart Contract를 배포하고 실행하는 데까지 필요한 시간과 노력이 너무 많이 들어감
+
+    - Smart Contract : 블록체인에 내가 원하는 코드를 배포하고 실행할 수 있습니다. 이 코드를 Smart Contract라고 부릅니다. Smart Contract는 Solidity라는 언어로 작성하게 되고 Solidity 버전은 0.8.17을 사용합니다.
+
+    - Smart Contract를 줄여서 Contract라고 부릅니다.
 
 ## 기존 소프트웨어 개발 방식과 차이
 
@@ -45,7 +35,7 @@
 
     - Off-Chain: 블록체인 밖을 Off-Chain이라고 합니다. 반대말은 On-Chain입니다. 기획을 설명할때 내가 지금 말하고 있는 동작이 On-Chain에서 벌어지는 일인지 Off-Chain에서 벌어지는 일인지 명확하게 지정하는 게 좋습니다.
     
-- 이건 비 개발자들(기획자, 마케팅, 영업등등)에게도 마찬가지....
+- 이건 비 프로그래머들(기획자, 마케팅, 영업등등)에게도 마찬가지....
   
 - 백문이 불여일타 - 개발해 보지 않으면 아무리 많이 QnA 시간을 가져도 이해의 어려움이 존재
 
@@ -81,6 +71,7 @@
 # 강의 목표
 
 - 개발환경은 HardHat + TypeChain + TypeScript(이하 TS), 네트워크는 Klaytn에서 진행합니다. 이 조합이 무엇인지는 지금 모르셔도 됩니다. 필요한 시기에 설명해 드릴 예정입니다.
+
     - 네트워크: Ethereum, Polygon, Klaytn등등의 블록체인은 P2P 네트워크환경에서 작동하는데 이를 줄여서 네트워크라고 부릅니다. 실무에서 "Ethereum 네트워크에서는 블럭 생성속도가 느리다." 이런식 으로 사용합니다.
 
 - Hardhat + TypeChain + TypeScript 환경은 실무에서 많이 사용하는 개발환경입니다.
@@ -88,4 +79,9 @@
 - Klaytn에서 진행하는 이유는 가장 쉽고 문제없이 진행할 수 있기 때문입니다.
 
 - 위 환경에서 여러분들은 Contract를 개발하고 Unittest로 검증하고 HardHat으로 배포하고 사용하는 과정을 실습을 통해 습득하시게 되고 강의가 끝나면 간단한 블록체인 프로젝트의 개발 시작과 끝을 경험해 보실 수 있습니다.
+
     - Unittest : 내가 만든 코드를 작은 단위로 쪼개어 테스트하여 무결성(코드가 문제 없음)을 검증하는 코드입니다. 이 강의에서는 Contract의 무결성을 확인하는데 사용하게 됩니다.
+
+- 강의 마지막에는 내가 만든 NFT를 유저들에게 발급해주면서 내가 만든 Coin을 수수료로 받을수 있는 간단한 BApp을 만들겁니다.
+
+- 이 과정에서 Opensea(NFT MarketPlace) Collection 관리, Metamask 지갑연동을 하시게 됩니다.

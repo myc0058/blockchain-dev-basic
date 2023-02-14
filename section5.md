@@ -1,7 +1,5 @@
 # **Section 5 - Smart Contract with Klaytn** :spider_web:
 
-- (TODO)
-
 # Klaytn network 소개
 
 - Klaytn은 EVM 호환 네트워크입니다.
@@ -30,7 +28,7 @@
 - /src/wallet/create-key.ts 파일 추가
 
 - create-key.ts 스크립트 만들기
-    - <details><summary>Code</summary>
+    - <details><summary>⌨️ Source Code</summary>
     
         ```ts
         import { ethers } from 'hardhat';
@@ -108,7 +106,7 @@
     - gas.ts 파일 추가
 
     - gas.ts 스크립트 만들기
-        - <details><summary>Code</summary>
+        - <details><summary>⌨️ Source Code</summary>
             
             ```ts
             import { ethers } from 'hardhat';
@@ -132,7 +130,7 @@
     - deploy.ts 파일 추가
         
     - deploy 스크립트 만들기
-        - <details><summary>Code</summary>
+        - <details><summary>⌨️ Source Code</summary>
     
             ```ts
             import hre, { ethers } from 'hardhat';
@@ -220,7 +218,7 @@
     - /src/greeter/interaction.ts 파일 추가
 
     - interaction.ts 스크립트 만들기
-        - <details><summary>Code</summary>
+        - <details><summary>⌨️ Source Code</summary>
 
             ```ts
             import hre, { ethers } from 'hardhat';
@@ -299,7 +297,7 @@
     - /src/greeter/estimate-gas.ts 파일 추가
 
     - estimate-gas.ts 스크립트 만들기
-        - <details><summary>Code</summary>
+        - <details><summary>⌨️ Source Code</summary>
         
             ```ts
             import hre, { ethers } from 'hardhat';
@@ -355,7 +353,7 @@
     - /src/greeter/get-method-signatures.ts 추가
 
     - get-method-signatures.ts 스크립트 만들기
-        - <details><summary>Code</summary>
+        - <details><summary>⌨️ Source Code</summary>
         
             ```ts
             import hre, { ethers } from 'hardhat';

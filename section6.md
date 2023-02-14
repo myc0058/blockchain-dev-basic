@@ -1,7 +1,5 @@
 # **Section 6 - ERC20** :moneybag:
 
-- (TODO)
-
 # OpenZeppelin 소개
 
 - OpenZeppelin은 블록체인 및 소프트웨어 개발 회사입니다. 또한 이 회사에서 만든 Smart Contract 표준 프레임웍입니다. 보통 OpenZeppelin을 말하면 이 표준 프레임웍을 얘기합니다. 유용한 Smart Contract들의 모음이라고 생각하시면 됩니다.
@@ -54,7 +52,7 @@
 
 - Momo.sol 만들기
 
-    - <details><summary>Code</summary>
+    - <details><summary>⌨️ Source Code</summary>
 
         ```solidity
         //SPDX-License-Identifier: MIT
@@ -90,7 +88,7 @@
 
 - Momo.test.test 스크립트 만들기
 
-    - <details><summary>Code</summary>
+    - <details><summary>⌨️ Source Code</summary>
         
         ```ts
         import { expect } from 'chai';
@@ -140,7 +138,7 @@
 
 - deploy.ts 스크립트 만들기
 
-    - <details><summary>Code</summary>
+    - <details><summary>⌨️ Source Code</summary>
         
         ```ts
         import hre, { ethers } from 'hardhat';
@@ -204,7 +202,7 @@
 
 - get-balance.ts 스크립트 만들기
 
-    - <details><summary>Code</summary>
+    - <details><summary>⌨️ Source Code</summary>
     
         ```ts
         import hre, { ethers } from 'hardhat';

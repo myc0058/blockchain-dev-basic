@@ -1,7 +1,5 @@
 # **Section 3 - Smart Contract 만들기** :rocket:
 
-- (TODO)
-
 # Solidity 소개
 
 - Solidity는 Smart Contract를 작성하기 위한 객체지향 언어입니다
@@ -10,7 +8,7 @@
 
 - Solidity의 각 버전은 차이점이 존재하고 구버전의 코드는 최신버전에서 Compile 되지 않을 가능성이 있습니다.
   
-- 예 0.7.x Version의 Solidity(Smart Contract) 파일은 0.8.x Version에서 Compile 되지 않을 수 있습니다.
+- 예) 0.7.x Version의 Solidity(Smart Contract) 파일은 0.8.x Version에서 Compile 되지 않을 수 있습니다.
 
 - 인터넷에서 찾은 과거 버전의 코드가 여러분이 사용하는 최신버전에서는 작동하지 않거나 다르게 동작할 가능성이 있어 구체적으로 Version을 명시하지 않은 자료는 꼭 테스트 코드를 작성하여 확인이 필요합니다.
 
@@ -114,9 +112,9 @@
 
 - Hardhat을 사용하면 위 명령어는 직접 사용하지 않지만 어떻게 다른지는 알아야 합니다. Metamask와 연동하는 강의(강의 마지막 부분)에서 다시 나옵니다.
 
-# Greeter.sol 진화시키기
+# Greeter.sol 기능 확장하기
 
-- <details><summary>Code</summary>
+- <details><summary>⌨️ Source Code</summary>
     
     ```solidity
     //SPDX-License-Identifier: MIT
@@ -209,7 +207,7 @@
 
         - 하지만 private변수의 값을 가져오는 함수가 아예 없는 것은 아닙니다. ```getStorageAt``` 함수로 private변수라도 값을 볼 수 있습니다.
 
-        - 그러므로 private 변수에 중요 데이타를 저장하면 안 됩니다.
+        - 그러므로 private 변수에 비밀 데이타를 저장하면 안 됩니다.
 
 - Contract 멤버함수
 
