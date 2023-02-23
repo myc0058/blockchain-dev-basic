@@ -24,7 +24,7 @@
     - Contract를 상속받으면 하위 Contract(상속받은 Contract)는 상위 Contract의 모든 변수와 함수를 가지게 됩니다.
   
     - 새로운 키워드 internal, external은 private, public과 유사합니다. 다만 internal은 Contract 내부와 하위 Contract에서 호출이 가능하고 external은 Contract 내부에서는 호출할 수 없고 외부에서만 호출이 가능합니다.
-  
+
     - function totalSupply() external view returns (uint256);
         - 총 유통량
 
@@ -42,7 +42,13 @@
         - approve 함수를 호출할 때 역시 가스비를 지불해야 하기 때문에 편의상 아주 큰 수를 서비스를 처음 이용할 때 한 번만 approve하곤 합니다.
         
     - function transferFrom(address from, address to, uint256 amount) external returns (bool);
-        - 다른 계정의 코인 전송
+        - 제 3자가 코인 전송
+
+    - 그림으로 알아보기
+        
+        ![Alt text](section6/approve_transferFrom.png)
+        
+        출처 : https://blocksecteam.medium.com/unlimited-approval-in-erc20-convenience-or-security-1c8dce421ed7
 
 - ERC20.sol 살펴보기
   

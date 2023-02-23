@@ -697,6 +697,11 @@
 
     ![Alt text](section11/certificate.PNG)
 
+# 다루지 않은 내용들
+
+- Hardhat BoilerPlate
+- 
+
 # 다음 강의 계획
 
 - 아직 구체적으로 강의 계획을 세우진 않았습니다.
