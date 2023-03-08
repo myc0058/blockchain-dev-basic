@@ -15,6 +15,12 @@
 - 현재 블록체인 프로젝트 Smart Contract 개발과 BackEnd 개발을 맡고 있습니다
 
 
+# 강의 자료
+
+- 소스 코드 : https://github.com/myc0058/blockchain-dev-basic-code
+
+- 강의 자료 : https://github.com/myc0058/blockchain-dev-basic
+
 # BlockChain 개발 교육의 필요성
 
 ## 정보의 접근성이 낮음
