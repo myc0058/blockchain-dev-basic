@@ -47,6 +47,12 @@
     }
     ```
 
+- package 설치
+
+    ```
+    npm install
+    ```
+
 # hardhat.config.ts
 
 - hardhat.config.ts 파일추가
