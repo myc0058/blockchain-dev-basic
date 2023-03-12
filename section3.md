@@ -94,13 +94,13 @@
 
 # eth_call, eth_sendTransaction
 
-- view함수와 변수를 read만 하는 함수, non view 함수 변수에 write가 있는 함수입니다.
+- 변수를 read만 하는 view 함수, 변수에 write를 하는 non view가 있습니다.
 
 - non view 함수는 Transaction을 발생시킵니다.
 
     - Transaction : 여러개 의 작업을 하나로 묶은 단위입니다. 트랜잭션이라고 말할 수 있는 작업 묶음은 반드시 모두가 성공하거나 모두가 실패하게 됩니다. 예를 들어 은행에서 예금을 이체할 때 내 잔고는 원하는 만큼 마이너스가 돼야 하고 상대방 잔고는 그만큼 플러스가 돼야 하는데 둘 중에 한 가지의 작업만 완료되면 큰 사고로 이어지게 되는데 이때 트랜잭션을 사용하여 2가지 작업 묶음 모두 성공하거나 한 가지가 실패했을 때 모두 실패하게 되어 무결성을 보장해 줍니다.
 
-- view 함수와 none view 함수는 EOA에서 함수를 호출하는 방법이 다릅니다. view 함수는 ```eth_call``` Ethereum JSON-RPC API를 사용하고 none view 함수는 ```eth_sendTransaction``` Method를 사용합니다. 
+- view 함수와 none view 함수는 EOA에서 함수를 호출하는 방법이 다릅니다. view 함수는 ```eth_call```(Ethereum JSON-RPC API)를 사용하고 none view 함수는 ```eth_sendTransaction``` Method를 사용합니다. 
 
 - ```eth_call```은 가스비가 필요하지 않고 eth_sendTransaction 가스비가 필요합니다.
 
